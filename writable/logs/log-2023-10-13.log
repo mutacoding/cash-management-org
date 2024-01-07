@@ -1,0 +1,509 @@
+CRITICAL - 2023-10-13 02:22:50 --> Undefined array key 1
+in APPPATH\Views\user\buku.php on line 14.
+ 1 APPPATH\Views\user\buku.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/buku', [], true)
+ 5 APPPATH\Controllers\User.php(80): view('user/buku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 02:22:57 --> Undefined array key 1
+in APPPATH\Views\user\buku.php on line 14.
+ 1 APPPATH\Views\user\buku.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/buku', [], true)
+ 5 APPPATH\Controllers\User.php(80): view('user/buku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 02:23:34 --> Undefined array key "kategori"
+in APPPATH\Views\user\buku.php on line 23.
+ 1 APPPATH\Views\user\buku.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/buku', [], true)
+ 5 APPPATH\Controllers\User.php(80): view('user/buku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 02:25:16 --> Undefined array key "kategori"
+in APPPATH\Views\user\buku.php on line 23.
+ 1 APPPATH\Views\user\buku.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/buku', [], true)
+ 5 APPPATH\Controllers\User.php(80): view('user/buku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 02:25:18 --> Undefined array key "kategori"
+in APPPATH\Views\user\buku.php on line 23.
+ 1 APPPATH\Views\user\buku.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/buku', [], true)
+ 5 APPPATH\Controllers\User.php(80): view('user/buku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 02:26:27 --> syntax error, unexpected token ")"
+in APPPATH\Views\user\buku.php on line 14.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/buku', [], true)
+ 3 APPPATH\Controllers\User.php(80): view('user/buku', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 02:29:02 --> Undefined variable $value
+in APPPATH\Views\user\buku.php on line 20.
+ 1 APPPATH\Views\user\buku.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/buku', [], true)
+ 5 APPPATH\Controllers\User.php(80): view('user/buku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 02:32:27 --> Undefined array key "kategori"
+in APPPATH\Views\user\buku.php on line 23.
+ 1 APPPATH\Views\user\buku.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/buku', [], true)
+ 5 APPPATH\Controllers\User.php(80): view('user/buku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 02:35:26 --> Undefined array key 1
+in APPPATH\Views\user\buku.php on line 14.
+ 1 APPPATH\Views\user\buku.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/buku', [], true)
+ 5 APPPATH\Controllers\User.php(80): view('user/buku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 02:35:27 --> Undefined array key 1
+in APPPATH\Views\user\buku.php on line 14.
+ 1 APPPATH\Views\user\buku.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/buku', [], true)
+ 5 APPPATH\Controllers\User.php(80): view('user/buku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 02:35:40 --> Cannot access offset of type string on string
+in APPPATH\Views\user\buku.php on line 23.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/buku', [], true)
+ 4 APPPATH\Controllers\User.php(80): view('user/buku', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 02:35:49 --> Undefined array key "kategori"
+in APPPATH\Views\user\buku.php on line 23.
+ 1 APPPATH\Views\user\buku.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/buku', [], true)
+ 5 APPPATH\Controllers\User.php(80): view('user/buku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 02:36:09 --> Undefined array key "kategori"
+in APPPATH\Views\user\buku.php on line 23.
+ 1 APPPATH\Views\user\buku.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/buku', [], true)
+ 5 APPPATH\Controllers\User.php(80): view('user/buku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 02:36:57 --> Too few arguments to function CodeIgniter\BaseModel::findColumn(), 0 passed in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\User.php on line 78 and exactly 1 expected
+in SYSTEMPATH\BaseModel.php on line 588.
+ 1 APPPATH\Controllers\User.php(78): CodeIgniter\BaseModel->findColumn()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 02:40:49 --> Call to undefined method App\Models\BukuModel::tampilBuku
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\User.php(78): CodeIgniter\Model->__call('tampilBuku', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 02:40:58 --> Call to undefined method App\Models\BukuModel::tampilBuku
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\User.php(78): CodeIgniter\Model->__call('tampilBuku', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 02:41:01 --> Call to undefined method App\Models\BukuModel::tampilBuku
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\User.php(78): CodeIgniter\Model->__call('tampilBuku', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 02:41:27 --> Call to undefined method App\Models\BukuModel::tampilBuku
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\User.php(78): CodeIgniter\Model->__call('tampilBuku', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+ERROR - 2023-10-13 02:42:16 --> mysqli_sql_exception: Unknown column 'tb_buku' in 'field list' in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_buku...', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_buku...')
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_buku...')
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_buku...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\User.php(78): CodeIgniter\BaseModel->first()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(932): App\Controllers\User->buku()
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#12 {main}
+CRITICAL - 2023-10-13 02:42:16 --> Unknown column 'tb_buku' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_buku`
+FROM `tb_buku`
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_buku`
+FROM `tb_buku`
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_buku`
+FROM `tb_buku`
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_buku`
+FROM `tb_buku`
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\User.php(78): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 02:42:35 --> Cannot access offset of type string on string
+in APPPATH\Views\user\buku.php on line 23.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/buku', [], true)
+ 4 APPPATH\Controllers\User.php(80): view('user/buku', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 02:43:13 --> Cannot access offset of type string on string
+in APPPATH\Views\user\buku.php on line 23.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/buku', [], true)
+ 4 APPPATH\Controllers\User.php(80): view('user/buku', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 02:43:49 --> Cannot access offset of type string on string
+in APPPATH\Views\user\buku.php on line 25.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/buku', [], true)
+ 4 APPPATH\Controllers\User.php(80): view('user/buku', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 02:43:51 --> Cannot access offset of type string on string
+in APPPATH\Views\user\buku.php on line 25.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/buku', [], true)
+ 4 APPPATH\Controllers\User.php(80): view('user/buku', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 02:43:51 --> Cannot access offset of type string on string
+in APPPATH\Views\user\buku.php on line 25.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/buku', [], true)
+ 4 APPPATH\Controllers\User.php(80): view('user/buku', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 02:43:51 --> Cannot access offset of type string on string
+in APPPATH\Views\user\buku.php on line 25.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/buku', [], true)
+ 4 APPPATH\Controllers\User.php(80): view('user/buku', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 02:44:18 --> Cannot access offset of type string on string
+in APPPATH\Views\user\buku.php on line 25.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/buku', [], true)
+ 4 APPPATH\Controllers\User.php(80): view('user/buku', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+ERROR - 2023-10-13 04:13:06 --> mysqli_sql_exception: Column 'id' in where clause is ambiguous in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT tb_buku....', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb_buku....')
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb_buku....')
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Models\BukuModel.php(45): CodeIgniter\Database\BaseConnection->query('SELECT tb_buku....')
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\User.php(86): App\Models\BukuModel->detailBuku('7')
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(932): App\Controllers\User->detail('7')
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#10 {main}
+CRITICAL - 2023-10-13 04:13:06 --> Column 'id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT tb_buku.*, tb_kategori.kategori AS nama_kategori FROM tb_buku LEFT JOIN tb_kategori ON tb_buku.kategori_id = tb_kategori.id WHERE id = 7', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb_buku.*, tb_kategori.kategori AS nama_kategori FROM tb_buku LEFT JOIN tb_kategori ON tb_buku.kategori_id = tb_kategori.id WHERE id = 7')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb_buku.*, tb_kategori.kategori AS nama_kategori FROM tb_buku LEFT JOIN tb_kategori ON tb_buku.kategori_id = tb_kategori.id WHERE id = 7')
+ 4 APPPATH\Models\BukuModel.php(45): CodeIgniter\Database\BaseConnection->query('SELECT tb_buku.*, tb_kategori.kategori AS nama_kategori FROM tb_buku LEFT JOIN tb_kategori ON tb_buku.kategori_id = tb_kategori.id WHERE id = 7')
+ 5 APPPATH\Controllers\User.php(86): App\Models\BukuModel->detailBuku('7')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->detail('7')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 09:28:28 --> Undefined array key "cover_buku"
+in APPPATH\Views\user\detail.php on line 17.
+ 1 APPPATH\Views\user\detail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cover_buku"', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\detail.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\User.php(88): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->detail('7')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 09:28:51 --> Undefined array key "cover_buku"
+in APPPATH\Views\user\detail.php on line 17.
+ 1 APPPATH\Views\user\detail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cover_buku"', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\detail.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/detail', [], true)
+ 5 APPPATH\Controllers\User.php(88): view('user/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->detail('7')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 09:53:27 --> Cannot access offset of type string on string
+in APPPATH\Views\user\detail.php on line 20.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/detail', [], true)
+ 4 APPPATH\Controllers\User.php(88): view('user/detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->detail('7')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 13:23:41 --> Undefined variable $buku
+in APPPATH\Views\user\buku.php on line 14.
+ 1 APPPATH\Views\user\buku.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $buku', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/buku', [], true)
+ 5 APPPATH\Controllers\User.php(82): view('user/buku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 14:30:19 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Controllers\User.php on line 102.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+ERROR - 2023-10-13 15:01:29 --> mysqli_sql_exception: Not unique table/alias: 'tb_buku' in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_buku...', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_buku...')
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_buku...')
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_buku...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\BaseModel.php(563): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Models\BukuModel.php(41): CodeIgniter\BaseModel->find()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\User.php(78): App\Models\BukuModel->tampilBuku()
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(932): App\Controllers\User->buku()
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#13 {main}
+CRITICAL - 2023-10-13 15:01:29 --> Not unique table/alias: 'tb_buku'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_buku`.*, `tb_kategori`.`kategori` AS `nama_kategori`
+FROM (`tb_buku`, `tb_buku`)
+LEFT JOIN `tb_kategori` ON `tb_buku`.`kategori_id` = `tb_kategori`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_buku`.*, `tb_kategori`.`kategori` AS `nama_kategori`
+FROM (`tb_buku`, `tb_buku`)
+LEFT JOIN `tb_kategori` ON `tb_buku`.`kategori_id` = `tb_kategori`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_buku`.*, `tb_kategori`.`kategori` AS `nama_kategori`
+FROM (`tb_buku`, `tb_buku`)
+LEFT JOIN `tb_kategori` ON `tb_buku`.`kategori_id` = `tb_kategori`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_buku`.*, `tb_kategori`.`kategori` AS `nama_kategori`
+FROM (`tb_buku`, `tb_buku`)
+LEFT JOIN `tb_kategori` ON `tb_buku`.`kategori_id` = `tb_kategori`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Models\BukuModel.php(41): CodeIgniter\BaseModel->find()
+ 8 APPPATH\Controllers\User.php(78): App\Models\BukuModel->tampilBuku()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 15:11:43 --> Undefined variable $buku
+in APPPATH\Views\user\index.php on line 19.
+ 1 APPPATH\Views\user\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $buku', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/index', [], true)
+ 5 APPPATH\Controllers\User.php(24): view('user/index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 15:32:13 --> Too few arguments to function App\Controllers\User::detail(), 1 passed in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php on line 932 and exactly 2 expected
+in APPPATH\Controllers\User.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->detail('8')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 15:33:00 --> Unclosed '{' on line 43
+in APPPATH\Models\BukuModel.php on line 49.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Models\\BukuModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\BukuModel')
+ 3 APPPATH\Controllers\User.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\BukuModel')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\User->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 15:37:27 --> Undefined property: CodeIgniter\View\View::$db
+in APPPATH\Views\user\buku.php on line 15.
+ 1 APPPATH\Views\user\buku.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$db', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/buku', [], true)
+ 5 APPPATH\Controllers\User.php(87): view('user/buku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 15:37:43 --> Undefined property: CodeIgniter\View\View::$db
+in APPPATH\Views\user\buku.php on line 19.
+ 1 APPPATH\Views\user\buku.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$db', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/buku', [], true)
+ 5 APPPATH\Controllers\User.php(87): view('user/buku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 15:37:45 --> Undefined property: CodeIgniter\View\View::$db
+in APPPATH\Views\user\buku.php on line 19.
+ 1 APPPATH\Views\user\buku.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$db', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\user\\buku.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('user/buku', [], true)
+ 5 APPPATH\Controllers\User.php(87): view('user/buku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->buku()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 15:47:05 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getSegments()
+in APPPATH\Controllers\User.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-13 15:47:35 --> Request URI segment is out of range: "2"
+in SYSTEMPATH\HTTP\URI.php on line 550.
+ 1 SYSTEMPATH\HTTP\URI.php(550): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH\Controllers\User.php(32): CodeIgniter\HTTP\URI->getSegment(2)
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')

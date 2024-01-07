@@ -1,0 +1,38 @@
+ERROR - 2023-11-26 10:20:52 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'e-keuangan', 3306, '', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\app\Models\PemasukanModel.php(31): CodeIgniter\Database\BaseConnection->query('SELECT SUM(juml...')
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\app\Controllers\Bismillah.php(28): App\Models\PemasukanModel->totalPemasukan()
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(932): App\Controllers\Bismillah->index()
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bismillah))
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\app\Models\PemasukanModel.php(31): CodeIgniter\Database\BaseConnection->query('SELECT SUM(juml...')
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\app\Controllers\Bismillah.php(28): App\Models\PemasukanModel->totalPemasukan()
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(932): App\Controllers\Bismillah->index()
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bismillah))
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#9 {main}
+CRITICAL - 2023-11-26 10:20:52 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\PemasukanModel.php(31): CodeIgniter\Database\BaseConnection->query('SELECT SUM(jumlah) as tpem from tb_pemasukan')
+ 3 APPPATH\Controllers\Bismillah.php(28): App\Models\PemasukanModel->totalPemasukan()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bismillah->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bismillah))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Keuangan\\public\\index.php')
+INFO - 2023-11-26 14:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

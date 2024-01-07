@@ -1,0 +1,314 @@
+ERROR - 2023-10-17 08:45:43 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'e-library', 3306, '', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Models\UserModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\Auth.php(170): App\Models\UserModel->cekuser('a@gmail.com')
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(932): App\Controllers\Auth->login()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Models\UserModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\Auth.php(170): App\Models\UserModel->cekuser('a@gmail.com')
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(932): App\Controllers\Auth->login()
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#10 {main}
+CRITICAL - 2023-10-17 08:45:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_user`
+JOIN `tb_prodi` ON `tb_prodi`.`id_prodi` = `tb_user`.`prodi_id`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\UserModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Auth.php(170): App\Models\UserModel->cekuser('a@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+ERROR - 2023-10-17 08:45:48 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'e-library', 3306, '', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Models\UserModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\Auth.php(170): App\Models\UserModel->cekuser('a@gmail.com')
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(932): App\Controllers\Auth->login()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Models\UserModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\Auth.php(170): App\Models\UserModel->cekuser('a@gmail.com')
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(932): App\Controllers\Auth->login()
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#10 {main}
+CRITICAL - 2023-10-17 08:45:48 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_user`
+JOIN `tb_prodi` ON `tb_prodi`.`id_prodi` = `tb_user`.`prodi_id`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\UserModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Auth.php(170): App\Models\UserModel->cekuser('a@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+ERROR - 2023-10-17 08:46:00 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'e-library', 3306, '', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Models\UserModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\Auth.php(170): App\Models\UserModel->cekuser('a@gmail.com')
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(932): App\Controllers\Auth->login()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Models\UserModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\Auth.php(170): App\Models\UserModel->cekuser('a@gmail.com')
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(932): App\Controllers\Auth->login()
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#10 {main}
+CRITICAL - 2023-10-17 08:46:00 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_user`
+JOIN `tb_prodi` ON `tb_prodi`.`id_prodi` = `tb_user`.`prodi_id`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\UserModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Auth.php(170): App\Models\UserModel->cekuser('a@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+ERROR - 2023-10-17 08:46:08 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'e-library', 3306, '', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Models\UserModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\Auth.php(170): App\Models\UserModel->cekuser('a@gmail.com')
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(932): App\Controllers\Auth->login()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Models\UserModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\Auth.php(170): App\Models\UserModel->cekuser('a@gmail.com')
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(932): App\Controllers\Auth->login()
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#10 {main}
+CRITICAL - 2023-10-17 08:46:08 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_user`
+JOIN `tb_prodi` ON `tb_prodi`.`id_prodi` = `tb_user`.`prodi_id`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\UserModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Auth.php(170): App\Models\UserModel->cekuser('a@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+ERROR - 2023-10-17 08:48:16 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'e-library', 3306, '', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Models\UserModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\Auth.php(168): App\Models\UserModel->cekuser('a@gmail.com')
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(932): App\Controllers\Auth->login()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Models\UserModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\Auth.php(168): App\Models\UserModel->cekuser('a@gmail.com')
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(932): App\Controllers\Auth->login()
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#10 {main}
+CRITICAL - 2023-10-17 08:48:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_user`
+JOIN `tb_prodi` ON `tb_prodi`.`id_prodi` = `tb_user`.`prodi_id`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\UserModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Auth.php(168): App\Models\UserModel->cekuser('a@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+ERROR - 2023-10-17 08:48:24 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'e-library', 3306, '', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Models\UserModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\Auth.php(168): App\Models\UserModel->cekuser('a@gmail.com')
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(932): App\Controllers\Auth->login()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Models\UserModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\Auth.php(168): App\Models\UserModel->cekuser('a@gmail.com')
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(932): App\Controllers\Auth->login()
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#10 {main}
+CRITICAL - 2023-10-17 08:48:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_user`
+JOIN `tb_prodi` ON `tb_prodi`.`id_prodi` = `tb_user`.`prodi_id`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\UserModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Auth.php(168): App\Models\UserModel->cekuser('a@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+INFO - 2023-10-17 08:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-17 09:11:22 --> unlink(document/1697533677_6e25affb88be21fc29f9.pdf): No such file or directory
+in APPPATH\Controllers\Buku.php on line 254.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(document/1697533677_6e25affb88be21fc29f9.pdf): No such file or directory', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Controllers\\Buku.php', 254)
+ 2 APPPATH\Controllers\Buku.php(254): unlink('document/1697533677_6e25affb88be21fc29f9.pdf')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Buku->update()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+INFO - 2023-10-17 09:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,209 @@
+ERROR - 2023-10-10 02:45:26 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'e-library', 3306, '', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\Buku.php(31): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(932): App\Controllers\Buku->index()
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\Buku.php(31): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(932): App\Controllers\Buku->index()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#11 {main}
+CRITICAL - 2023-10-10 02:45:26 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_kategori`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Buku.php(31): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Buku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+ERROR - 2023-10-10 03:25:11 --> mysqli_sql_exception: Column 'kategori_id' cannot be null in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Models\BukuModel.php(22): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\Buku.php(148): App\Models\BukuModel->TambahBuku(Array)
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(932): App\Controllers\Buku->create()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#11 {main}
+CRITICAL - 2023-10-10 03:25:11 --> Column 'kategori_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_buku` (`judul`, `kategori_id`, `penulis_id`, `penerbit_id`, `tahun_terbit`, `deskripsi`, `cover_buku`, `file_buku`) VALUES (\'Naruto\', NULL, \'1\', \'1\', \'2023-10-10\', \'asdasd\', \'1696908311_0a79af2bd6d752c61d8b.jpg\', \'1696908311_815291e6a321cb7fc8b6.pdf\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_buku` (`judul`, `kategori_id`, `penulis_id`, `penerbit_id`, `tahun_terbit`, `deskripsi`, `cover_buku`, `file_buku`) VALUES (\'Naruto\', NULL, \'1\', \'1\', \'2023-10-10\', \'asdasd\', \'1696908311_0a79af2bd6d752c61d8b.jpg\', \'1696908311_815291e6a321cb7fc8b6.pdf\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_buku` (`judul`, `kategori_id`, `penulis_id`, `penerbit_id`, `tahun_terbit`, `deskripsi`, `cover_buku`, `file_buku`) VALUES (\'Naruto\', NULL, \'1\', \'1\', \'2023-10-10\', \'asdasd\', \'1696908311_0a79af2bd6d752c61d8b.jpg\', \'1696908311_815291e6a321cb7fc8b6.pdf\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_buku` (`judul`, `kategori_id`, `penulis_id`, `penerbit_id`, `tahun_terbit`, `deskripsi`, `cover_buku`, `file_buku`) VALUES (:judul:, :kategori_id:, :penulis_id:, :penerbit_id:, :tahun_terbit:, :deskripsi:, :cover_buku:, :file_buku:)', [...], false)
+ 5 APPPATH\Models\BukuModel.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Buku.php(148): App\Models\BukuModel->TambahBuku([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Buku->create()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+ERROR - 2023-10-10 03:26:29 --> mysqli_sql_exception: Column 'kategori_id' cannot be null in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Models\BukuModel.php(22): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\Buku.php(148): App\Models\BukuModel->TambahBuku(Array)
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(932): App\Controllers\Buku->create()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#11 {main}
+CRITICAL - 2023-10-10 03:26:29 --> Column 'kategori_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_buku` (`judul`, `kategori_id`, `penulis_id`, `penerbit_id`, `tahun_terbit`, `deskripsi`, `cover_buku`, `file_buku`) VALUES (\'Naruto\', NULL, \'1\', \'1\', \'2023-10-10\', \'asdasd\', \'1696908389_86c9d9b628b766048172.jpg\', \'1696908389_7bd857faafdfd0d20f26.pdf\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_buku` (`judul`, `kategori_id`, `penulis_id`, `penerbit_id`, `tahun_terbit`, `deskripsi`, `cover_buku`, `file_buku`) VALUES (\'Naruto\', NULL, \'1\', \'1\', \'2023-10-10\', \'asdasd\', \'1696908389_86c9d9b628b766048172.jpg\', \'1696908389_7bd857faafdfd0d20f26.pdf\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_buku` (`judul`, `kategori_id`, `penulis_id`, `penerbit_id`, `tahun_terbit`, `deskripsi`, `cover_buku`, `file_buku`) VALUES (\'Naruto\', NULL, \'1\', \'1\', \'2023-10-10\', \'asdasd\', \'1696908389_86c9d9b628b766048172.jpg\', \'1696908389_7bd857faafdfd0d20f26.pdf\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_buku` (`judul`, `kategori_id`, `penulis_id`, `penerbit_id`, `tahun_terbit`, `deskripsi`, `cover_buku`, `file_buku`) VALUES (:judul:, :kategori_id:, :penulis_id:, :penerbit_id:, :tahun_terbit:, :deskripsi:, :cover_buku:, :file_buku:)', [...], false)
+ 5 APPPATH\Models\BukuModel.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Buku.php(148): App\Models\BukuModel->TambahBuku([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Buku->create()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+ERROR - 2023-10-10 03:27:46 --> mysqli_sql_exception: Column 'kategori_id' cannot be null in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Models\BukuModel.php(22): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\Buku.php(148): App\Models\BukuModel->TambahBuku(Array)
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(932): App\Controllers\Buku->create()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#11 {main}
+CRITICAL - 2023-10-10 03:27:46 --> Column 'kategori_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_buku` (`judul`, `kategori_id`, `penulis_id`, `penerbit_id`, `tahun_terbit`, `deskripsi`, `cover_buku`, `file_buku`) VALUES (\'Naruto\', NULL, \'1\', \'1\', \'2023-10-10\', \'asdasd\', \'1696908466_a3292a524d1760eea291.jpg\', \'1696908466_2d61049af708e183d946.pdf\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_buku` (`judul`, `kategori_id`, `penulis_id`, `penerbit_id`, `tahun_terbit`, `deskripsi`, `cover_buku`, `file_buku`) VALUES (\'Naruto\', NULL, \'1\', \'1\', \'2023-10-10\', \'asdasd\', \'1696908466_a3292a524d1760eea291.jpg\', \'1696908466_2d61049af708e183d946.pdf\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_buku` (`judul`, `kategori_id`, `penulis_id`, `penerbit_id`, `tahun_terbit`, `deskripsi`, `cover_buku`, `file_buku`) VALUES (\'Naruto\', NULL, \'1\', \'1\', \'2023-10-10\', \'asdasd\', \'1696908466_a3292a524d1760eea291.jpg\', \'1696908466_2d61049af708e183d946.pdf\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_buku` (`judul`, `kategori_id`, `penulis_id`, `penerbit_id`, `tahun_terbit`, `deskripsi`, `cover_buku`, `file_buku`) VALUES (:judul:, :kategori_id:, :penulis_id:, :penerbit_id:, :tahun_terbit:, :deskripsi:, :cover_buku:, :file_buku:)', [...], false)
+ 5 APPPATH\Models\BukuModel.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Buku.php(148): App\Models\BukuModel->TambahBuku([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Buku->create()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-10 04:44:37 --> Invalid max_size parameter: "en_cover, 5120]mime_in[en_cover,image/jpg,image/png"
+in SYSTEMPATH\Validation\FileRules.php on line 88.
+ 1 SYSTEMPATH\Validation\Validation.php(279): CodeIgniter\Validation\FileRules->max_size(null, 'en_cover, 5120]mime_in[en_cover,image/jpg,image/png', [...], null, 'en_cover')
+ 2 SYSTEMPATH\Validation\Validation.php(183): CodeIgniter\Validation\Validation->processRules('en_cover', 'Gambar', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(149): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Buku.php(66): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Buku->create()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-10 12:59:59 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Buku.php on line 284.
+ 1 APPPATH\Controllers\Buku.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Controllers\\Buku.php', 284)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Buku->delete()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-10 13:00:08 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Buku.php on line 284.
+ 1 APPPATH\Controllers\Buku.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Controllers\\Buku.php', 284)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Buku->delete()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-10 13:09:26 --> Undefined variable $namadoc
+in APPPATH\Controllers\Buku.php on line 256.
+ 1 APPPATH\Controllers\Buku.php(256): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $namadoc', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Controllers\\Buku.php', 256)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Buku->update()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-10 13:59:19 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\ProdiModel.php(22): CodeIgniter\Model->insert([...])
+ 4 APPPATH\Controllers\Prodi.php(70): App\Models\ProdiModel->TambahProdi([...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Prodi->create()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prodi))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-10 13:59:25 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\ProdiModel.php(22): CodeIgniter\Model->insert([...])
+ 4 APPPATH\Controllers\Prodi.php(70): App\Models\ProdiModel->TambahProdi([...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Prodi->create()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prodi))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+ERROR - 2023-10-10 14:00:18 --> mysqli_sql_exception: Unknown column 'kategori' in 'field list' in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Models\ProdiModel.php(22): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\Prodi.php(70): App\Models\ProdiModel->TambahProdi(Array)
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(932): App\Controllers\Prodi->create()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prodi))
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#11 {main}
+CRITICAL - 2023-10-10 14:00:18 --> Unknown column 'kategori' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_prodi` (`kategori`) VALUES (\'Teknik Mesin\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_prodi` (`kategori`) VALUES (\'Teknik Mesin\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_prodi` (`kategori`) VALUES (\'Teknik Mesin\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_prodi` (`kategori`) VALUES (:kategori:)', [...], false)
+ 5 APPPATH\Models\ProdiModel.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Prodi.php(70): App\Models\ProdiModel->TambahProdi([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Prodi->create()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prodi))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')

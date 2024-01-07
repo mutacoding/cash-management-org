@@ -1,0 +1,248 @@
+ERROR - 2023-10-20 13:05:03 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'e-library', 3306, '', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Models\UserModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\Auth.php(168): App\Models\UserModel->cekuser('admin@gmail.com')
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(932): App\Controllers\Auth->login()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Models\UserModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\Auth.php(168): App\Models\UserModel->cekuser('admin@gmail.com')
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(932): App\Controllers\Auth->login()
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#10 {main}
+CRITICAL - 2023-10-20 13:05:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_user`
+JOIN `tb_prodi` ON `tb_prodi`.`id_prodi` = `tb_user`.`prodi_id`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\UserModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Auth.php(168): App\Models\UserModel->cekuser('admin@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+ERROR - 2023-10-20 13:05:23 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'e-library', 3306, '', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Models\UserModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\Auth.php(168): App\Models\UserModel->cekuser('admin@gmail.com')
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(932): App\Controllers\Auth->login()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Models\UserModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\Auth.php(168): App\Models\UserModel->cekuser('admin@gmail.com')
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(932): App\Controllers\Auth->login()
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#10 {main}
+CRITICAL - 2023-10-20 13:05:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_user`
+JOIN `tb_prodi` ON `tb_prodi`.`id_prodi` = `tb_user`.`prodi_id`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\UserModel.php(40): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Auth.php(168): App\Models\UserModel->cekuser('admin@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+INFO - 2023-10-20 13:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 13:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 13:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 13:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-20 13:26:41 --> "ceklogin" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 346.
+ 1 SYSTEMPATH\Filters\Filters.php(346): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('ceklogin')
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\Filters\Filters->enableFilter('ceklogin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-20 13:27:01 --> Class "App\Filters\CekAdmin" not found
+in SYSTEMPATH\Filters\Filters.php on line 170.
+ 1 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('admin/', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-20 13:27:04 --> Class "App\Filters\CekAdmin" not found
+in SYSTEMPATH\Filters\Filters.php on line 170.
+ 1 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('admin/', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+INFO - 2023-10-20 13:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 13:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 13:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-20 13:27:37 --> "ceklogin" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 346.
+ 1 SYSTEMPATH\Filters\Filters.php(346): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('ceklogin')
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\Filters\Filters->enableFilter('ceklogin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+INFO - 2023-10-20 13:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-20 13:32:28 --> "ceklogin" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 346.
+ 1 SYSTEMPATH\Filters\Filters.php(346): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('ceklogin')
+ 2 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\Filters\Filters->enableFilter('ceklogin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+INFO - 2023-10-20 13:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 13:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 13:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 13:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 13:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 13:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 13:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 13:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 13:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 13:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 13:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 13:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 13:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 13:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 13:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 13:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 13:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 13:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 13:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 13:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-20 14:35:45 --> syntax error, unexpected single-quoted string "toolbar", expecting "]"
+in APPPATH\Config\Filters.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Config\\Filters.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+ 4 SYSTEMPATH\Config\Factories.php(139): class_exists('Config\\Filters')
+ 5 SYSTEMPATH\Config\Factories.php(109): CodeIgniter\Config\Factories::locateClass([...], 'Config\\Filters')
+ 6 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 7 SYSTEMPATH\Config\Services.php(289): config('Config\\Filters')
+ 8 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::filters(null, false)
+ 9 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+10 SYSTEMPATH\Config\Services.php(286): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+11 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::filters()
+12 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-20 14:35:52 --> syntax error, unexpected single-quoted string "toolbar", expecting "]"
+in APPPATH\Config\Filters.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Config\\Filters.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+ 4 SYSTEMPATH\Config\Factories.php(139): class_exists('Config\\Filters')
+ 5 SYSTEMPATH\Config\Factories.php(109): CodeIgniter\Config\Factories::locateClass([...], 'Config\\Filters')
+ 6 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 7 SYSTEMPATH\Config\Services.php(289): config('Config\\Filters')
+ 8 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::filters(null, false)
+ 9 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+10 SYSTEMPATH\Config\Services.php(286): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+11 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::filters()
+12 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-20 14:35:54 --> syntax error, unexpected single-quoted string "toolbar", expecting "]"
+in APPPATH\Config\Filters.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Config\\Filters.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+ 4 SYSTEMPATH\Config\Factories.php(139): class_exists('Config\\Filters')
+ 5 SYSTEMPATH\Config\Factories.php(109): CodeIgniter\Config\Factories::locateClass([...], 'Config\\Filters')
+ 6 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 7 SYSTEMPATH\Config\Services.php(289): config('Config\\Filters')
+ 8 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::filters(null, false)
+ 9 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+10 SYSTEMPATH\Config\Services.php(286): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+11 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::filters()
+12 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-20 14:35:55 --> syntax error, unexpected single-quoted string "toolbar", expecting "]"
+in APPPATH\Config\Filters.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Config\\Filters.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+ 4 SYSTEMPATH\Config\Factories.php(139): class_exists('Config\\Filters')
+ 5 SYSTEMPATH\Config\Factories.php(109): CodeIgniter\Config\Factories::locateClass([...], 'Config\\Filters')
+ 6 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 7 SYSTEMPATH\Config\Services.php(289): config('Config\\Filters')
+ 8 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::filters(null, false)
+ 9 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+10 SYSTEMPATH\Config\Services.php(286): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+11 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::filters()
+12 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+INFO - 2023-10-20 14:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-20 14:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,185 @@
+CRITICAL - 2023-11-24 08:45:46 --> Undefined array key "penyetor"
+in APPPATH\Controllers\Bismillah.php on line 82.
+ 1 APPPATH\Controllers\Bismillah.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "penyetor"', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Keuangan\\app\\Controllers\\Bismillah.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bismillah->getAllPemasukan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bismillah))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Keuangan\\public\\index.php')
+CRITICAL - 2023-11-24 08:46:05 --> Undefined array key "penyetor"
+in APPPATH\Controllers\Bismillah.php on line 82.
+ 1 APPPATH\Controllers\Bismillah.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "penyetor"', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Keuangan\\app\\Controllers\\Bismillah.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bismillah->getAllPemasukan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bismillah))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Keuangan\\public\\index.php')
+CRITICAL - 2023-11-24 13:52:00 --> Invalid file: "admin/v_anggota.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/v_anggota.php')
+ 2 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('admin/v_anggota', [], true)
+ 3 APPPATH\Controllers\Bismillah.php(40): view('admin/v_anggota', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bismillah->viewAnggota()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bismillah))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Keuangan\\public\\index.php')
+CRITICAL - 2023-11-24 13:54:03 --> Undefined array key "posisi"
+in APPPATH\Controllers\Bismillah.php on line 126.
+ 1 APPPATH\Controllers\Bismillah.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "posisi"', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Keuangan\\app\\Controllers\\Bismillah.php', 126)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bismillah->getAllProgja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bismillah))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Keuangan\\public\\index.php')
+CRITICAL - 2023-11-24 13:54:16 --> Undefined array key "posisi"
+in APPPATH\Controllers\Bismillah.php on line 126.
+ 1 APPPATH\Controllers\Bismillah.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "posisi"', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Keuangan\\app\\Controllers\\Bismillah.php', 126)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bismillah->getAllProgja()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bismillah))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Keuangan\\public\\index.php')
+CRITICAL - 2023-11-24 14:53:30 --> Call to undefined method App\Models\PemasukanModel::createPengeluaran
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Bismillah.php(164): CodeIgniter\Model->__call('createPengeluaran', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bismillah->createPengeluaran()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bismillah))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Keuangan\\public\\index.php')
+ERROR - 2023-11-24 14:54:26 --> mysqli_sql_exception: Column 'divisi' cannot be null in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\app\Models\PengeluaranModel.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\app\Controllers\Bismillah.php(164): App\Models\PengeluaranModel->createPengeluaran(Array)
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(932): App\Controllers\Bismillah->createPengeluaran()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bismillah))
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#11 {main}
+CRITICAL - 2023-11-24 14:54:26 --> Column 'divisi' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_pengeluaran` (`tgl_pengeluaran`, `kegiatan`, `divisi`, `jumlah`) VALUES (\'2023-11-24\', \'Agama Islam\', NULL, \'200000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_pengeluaran` (`tgl_pengeluaran`, `kegiatan`, `divisi`, `jumlah`) VALUES (\'2023-11-24\', \'Agama Islam\', NULL, \'200000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_pengeluaran` (`tgl_pengeluaran`, `kegiatan`, `divisi`, `jumlah`) VALUES (\'2023-11-24\', \'Agama Islam\', NULL, \'200000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_pengeluaran` (`tgl_pengeluaran`, `kegiatan`, `divisi`, `jumlah`) VALUES (:tgl_pengeluaran:, :kegiatan:, :divisi:, :jumlah:)', [...], false)
+ 5 APPPATH\Models\PengeluaranModel.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Bismillah.php(164): App\Models\PengeluaranModel->createPengeluaran([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bismillah->createPengeluaran()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bismillah))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Keuangan\\public\\index.php')
+ERROR - 2023-11-24 14:54:51 --> mysqli_sql_exception: Column 'divisi' cannot be null in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\app\Models\PengeluaranModel.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\app\Controllers\Bismillah.php(164): App\Models\PengeluaranModel->createPengeluaran(Array)
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(932): App\Controllers\Bismillah->createPengeluaran()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bismillah))
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#11 {main}
+CRITICAL - 2023-11-24 14:54:51 --> Column 'divisi' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_pengeluaran` (`tgl_pengeluaran`, `kegiatan`, `divisi`, `jumlah`) VALUES (\'2023-11-24\', \'Minat Dan Bakat\', NULL, \'1000000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_pengeluaran` (`tgl_pengeluaran`, `kegiatan`, `divisi`, `jumlah`) VALUES (\'2023-11-24\', \'Minat Dan Bakat\', NULL, \'1000000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_pengeluaran` (`tgl_pengeluaran`, `kegiatan`, `divisi`, `jumlah`) VALUES (\'2023-11-24\', \'Minat Dan Bakat\', NULL, \'1000000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_pengeluaran` (`tgl_pengeluaran`, `kegiatan`, `divisi`, `jumlah`) VALUES (:tgl_pengeluaran:, :kegiatan:, :divisi:, :jumlah:)', [...], false)
+ 5 APPPATH\Models\PengeluaranModel.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Bismillah.php(164): App\Models\PengeluaranModel->createPengeluaran([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bismillah->createPengeluaran()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bismillah))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Keuangan\\public\\index.php')
+ERROR - 2023-11-24 14:56:53 --> mysqli_sql_exception: Unknown column 'penggunaan' in 'field list' in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\app\Models\PengeluaranModel.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\app\Controllers\Bismillah.php(164): App\Models\PengeluaranModel->createPengeluaran(Array)
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(932): App\Controllers\Bismillah->createPengeluaran()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bismillah))
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#11 {main}
+CRITICAL - 2023-11-24 14:56:53 --> Unknown column 'penggunaan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_pengeluaran` (`tgl_pengeluaran`, `penggunaan`, `divisi`, `jumlah`) VALUES (\'2023-11-24\', \'CE Cup\', NULL, \'1000000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_pengeluaran` (`tgl_pengeluaran`, `penggunaan`, `divisi`, `jumlah`) VALUES (\'2023-11-24\', \'CE Cup\', NULL, \'1000000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_pengeluaran` (`tgl_pengeluaran`, `penggunaan`, `divisi`, `jumlah`) VALUES (\'2023-11-24\', \'CE Cup\', NULL, \'1000000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_pengeluaran` (`tgl_pengeluaran`, `penggunaan`, `divisi`, `jumlah`) VALUES (:tgl_pengeluaran:, :penggunaan:, :divisi:, :jumlah:)', [...], false)
+ 5 APPPATH\Models\PengeluaranModel.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Bismillah.php(164): App\Models\PengeluaranModel->createPengeluaran([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bismillah->createPengeluaran()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bismillah))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Keuangan\\public\\index.php')
+ERROR - 2023-11-24 14:57:31 --> mysqli_sql_exception: Unknown column 'penggunaan' in 'field list' in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\app\Models\PengeluaranModel.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\app\Controllers\Bismillah.php(164): App\Models\PengeluaranModel->createPengeluaran(Array)
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(932): App\Controllers\Bismillah->createPengeluaran()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bismillah))
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#11 {main}
+CRITICAL - 2023-11-24 14:57:31 --> Unknown column 'penggunaan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_pengeluaran` (`tgl_pengeluaran`, `penggunaan`, `divisi`, `jumlah`) VALUES (\'2023-11-24\', \'Canva Pro\', \'Hubungan Masyarakat\', \'25000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_pengeluaran` (`tgl_pengeluaran`, `penggunaan`, `divisi`, `jumlah`) VALUES (\'2023-11-24\', \'Canva Pro\', \'Hubungan Masyarakat\', \'25000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_pengeluaran` (`tgl_pengeluaran`, `penggunaan`, `divisi`, `jumlah`) VALUES (\'2023-11-24\', \'Canva Pro\', \'Hubungan Masyarakat\', \'25000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_pengeluaran` (`tgl_pengeluaran`, `penggunaan`, `divisi`, `jumlah`) VALUES (:tgl_pengeluaran:, :penggunaan:, :divisi:, :jumlah:)', [...], false)
+ 5 APPPATH\Models\PengeluaranModel.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Bismillah.php(164): App\Models\PengeluaranModel->createPengeluaran([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bismillah->createPengeluaran()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bismillah))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Keuangan\\public\\index.php')
+ERROR - 2023-11-24 14:58:41 --> mysqli_sql_exception: Column 'kegiatan' cannot be null in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\app\Models\PengeluaranModel.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\app\Controllers\Bismillah.php(164): App\Models\PengeluaranModel->createPengeluaran(Array)
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(932): App\Controllers\Bismillah->createPengeluaran()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bismillah))
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#11 {main}
+CRITICAL - 2023-11-24 14:58:41 --> Column 'kegiatan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_pengeluaran` (`tgl_pengeluaran`, `kegiatan`, `divisi`, `jumlah`) VALUES (\'2023-11-24\', NULL, \'Hubungan Masyarakat\', \'25000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_pengeluaran` (`tgl_pengeluaran`, `kegiatan`, `divisi`, `jumlah`) VALUES (\'2023-11-24\', NULL, \'Hubungan Masyarakat\', \'25000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_pengeluaran` (`tgl_pengeluaran`, `kegiatan`, `divisi`, `jumlah`) VALUES (\'2023-11-24\', NULL, \'Hubungan Masyarakat\', \'25000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_pengeluaran` (`tgl_pengeluaran`, `kegiatan`, `divisi`, `jumlah`) VALUES (:tgl_pengeluaran:, :kegiatan:, :divisi:, :jumlah:)', [...], false)
+ 5 APPPATH\Models\PengeluaranModel.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Bismillah.php(164): App\Models\PengeluaranModel->createPengeluaran([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bismillah->createPengeluaran()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bismillah))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Keuangan\\public\\index.php')

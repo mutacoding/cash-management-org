@@ -1,0 +1,62 @@
+ERROR - 2023-11-22 04:24:35 --> mysqli_sql_exception: Table 'e-library.tb_admin' doesn't exist in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\app\Controllers\Bismillah.php(26): CodeIgniter\Model->countAllResults()
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(932): App\Controllers\Bismillah->index()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bismillah))
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#11 {main}
+CRITICAL - 2023-11-22 04:24:35 --> Table 'e-library.tb_admin' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_admin`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `tb_admin`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `tb_admin`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_admin`', [], false)
+ 5 SYSTEMPATH\Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Controllers\Bismillah.php(26): CodeIgniter\Model->countAllResults()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bismillah->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bismillah))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Keuangan\\public\\index.php')
+ERROR - 2023-11-22 04:24:39 --> mysqli_sql_exception: Table 'e-library.tb_admin' doesn't exist in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\app\Controllers\Bismillah.php(26): CodeIgniter\Model->countAllResults()
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(932): App\Controllers\Bismillah->index()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bismillah))
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Keuangan\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#11 {main}
+CRITICAL - 2023-11-22 04:24:39 --> Table 'e-library.tb_admin' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_admin`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `tb_admin`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `tb_admin`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_admin`', [], false)
+ 5 SYSTEMPATH\Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Controllers\Bismillah.php(26): CodeIgniter\Model->countAllResults()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bismillah->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bismillah))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Keuangan\\public\\index.php')

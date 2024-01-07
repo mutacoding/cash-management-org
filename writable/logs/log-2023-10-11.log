@@ -1,0 +1,95 @@
+CRITICAL - 2023-10-11 05:09:18 --> Undefined array key "username"
+in APPPATH\Controllers\User.php on line 39.
+ 1 APPPATH\Controllers\User.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Controllers\\User.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-11 05:09:34 --> Undefined array key "username"
+in APPPATH\Controllers\User.php on line 39.
+ 1 APPPATH\Controllers\User.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Controllers\\User.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-11 10:00:33 --> Invalid file: "admin/user.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/user.php')
+ 2 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('admin/user', [], true)
+ 3 APPPATH\Controllers\User.php(21): view('admin/user')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+ERROR - 2023-10-11 10:00:47 --> mysqli_sql_exception: Unknown column 'mahasiswa' in 'field list' in C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `mahasis...', 0)
+#1 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasis...')
+#2 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasis...')
+#3 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `mahasis...', Array, false)
+#4 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\app\Controllers\User.php(27): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(932): App\Controllers\User->getAllMahasiswa()
+#8 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Aceng\Documents\Belajar Website\CI4\E-Library\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\...')
+#12 {main}
+CRITICAL - 2023-10-11 10:00:47 --> Unknown column 'mahasiswa' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `mahasiswa`
+FROM `tb_user`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`
+FROM `tb_user`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`
+FROM `tb_user`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`
+FROM `tb_user`', [], false)
+ 5 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\User.php(27): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->getAllMahasiswa()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-11 13:50:26 --> Undefined array key "nama"
+in APPPATH\Controllers\User.php on line 51.
+ 1 APPPATH\Controllers\User.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Controllers\\User.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->getAllDosen()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-11 13:50:59 --> Undefined array key "nama"
+in APPPATH\Controllers\User.php on line 51.
+ 1 APPPATH\Controllers\User.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Controllers\\User.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->getAllDosen()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-11 13:51:04 --> Undefined array key "nama"
+in APPPATH\Controllers\User.php on line 51.
+ 1 APPPATH\Controllers\User.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Controllers\\User.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->getAllDosen()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
+CRITICAL - 2023-10-11 15:00:12 --> Undefined variable $penulis
+in APPPATH\Views\admin\buku.php on line 89.
+ 1 APPPATH\Views\admin\buku.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $penulis', 'C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\admin\\buku.php', 89)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\app\\Views\\admin\\buku.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1174): CodeIgniter\View\View->render('admin/buku', [], true)
+ 5 APPPATH\Controllers\Buku.php(27): view('admin/buku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Buku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Aceng\\Documents\\Belajar Website\\CI4\\E-Library\\public\\index.php')
